@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: aquamarine;
+    position: fixed;
+    display: flex;
+    /* justify-content: center; */
+
+}
+
+.base {
+    margin: 500px;
+    margin-left: 500px;
+    position: fixed;
+    width: 960px;
+    height: 260px;
+    background-image: url(./base.png);
+    /* background-color: rgb(172, 158, 149); */
+    z-index: 1;
+}
+
+.roof {
+    position: fixed;
+    border-bottom: 260px solid rgb(154, 160, 174);
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    height: 300px;
+    width: 770px;
+    margin: -50px;
+    margin-left: 445px;
+    z-index: 2;
+}
+
+.chimney {
+    position: fixed;
+    height: 180px;
+    width: 65px;
+    background-color: aliceblue;
+    z-index: 3;
+    margin: 170px;
+    margin-left: 900px;
+}
+
+.triangle1,.triangle2 {
+    position: fixed;
+    border-bottom: 100px solid red;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    margin: 280px;
+    z-index: 5;
+}
+
+.triangle1 {
+    position: fixed;
+    margin-left: 620px;
+}
+
+.triangle2 {
+    position: fixed;
+    margin-left: 1120px;
+}
+
+.window1,.window2 {
+    position: fixed;
+    height: 105px;
+    width: 155px;
+    margin: 390px;
+    background-image: url(./windows.png);
+    /* background-color: rgb(220, 237, 244); */
+    z-index: 6;
+}
+
+.window1 {
+    position: fixed;
+    margin-left: 665px;
+}
+
+.window2 {
+    position: fixed;
+    margin-left: 1165px;
+}
+
+.basetriangle1,.basetriangle2 {
+    position: fixed;
+    border-bottom: 95px solid rgb(172, 158, 149);
+    border-left: 99px solid transparent;
+    border-right: 99px solid transparent;
+    overflow:hidden;
+    margin: 285px;
+    z-index: 5;
+}
+
+.basetriangle1 {
+    position: fixed;
+    margin-left: 642px;
+}
+
+.basetriangle2 {
+    position: fixed;
+    margin-left: 1142px;
+}
+
+.base1,.base2 {
+    position: fixed;
+    height: 125px;
+    width: 195px;
+    margin: 380px;
+    background-image: url(./base.png);
+    background-color: rgb(172, 158, 149);
+    z-index: 5;
+}
+
+.base1 {
+    position: fixed;
+    margin-left: 645px;
+}
+
+.base2 {
+    position: fixed;
+    margin-left: 1145px;
+}
+
+.basewindow1,.basewindow2 {
+    position: fixed;
+    height: 105px;
+    width: 155px;
+    margin: 580px;
+    background-image: url(./windows.png);
+    /* background-color: rgb(220, 237, 244); */
+    z-index: 2;
+}
+
+.basewindow1 {
+    position: fixed;
+    margin-left: 665px;
+}
+
+.basewindow2 {
+    position: fixed;
+    margin-left: 1165px;
+}
+
+.door1,.door2 {
+    position: fixed;
+    height: 165px;
+    margin: 580px;
+    background-color: green;
+    z-index: 2;
+}
+
+.door1{
+    position: fixed;
+    margin-left: 896px;
+    width: 65px;
+}
+
+.door2{
+    position: fixed;
+    margin-left: 964px;
+    width: 95px;
+}
+
+.stairs{
+    position: fixed;
+    margin: 745px;
+    margin-left: 883px;
+    height: 15px;
+    width: 190px;
+    background-color: white;
+    z-index: 3;
+}
